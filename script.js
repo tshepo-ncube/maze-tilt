@@ -609,7 +609,7 @@ window.onload = function () {
     }
   };
   sprite = new Image();
-  sprite.src = "./key.png" + "?" + new Date().getTime();
+  sprite.src = "./basketball.png" + "?" + new Date().getTime();
   sprite.setAttribute("crossOrigin", " ");
   sprite.onload = function () {
     sprite = changeBrightness(1.2, sprite);
